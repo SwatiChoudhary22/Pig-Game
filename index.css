@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(45deg, rgb(217, 28, 91), rgb(112, 4, 133));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.board {
+  display: flex;
+  padding: 100px;
+  position: relative;
+  height: 70vh;
+}
+.player0 {
+  background-color: rgb(236, 158, 173);
+  padding: 20px;
+  width: 75%;
+  height: 80%;
+  text-align: center;
+}
+.player1 {
+  background-color: rgb(236, 182, 220);
+  padding: 20px;
+  width: 75%;
+  height: 80%;
+  text-align: center;
+}
+.score0,
+.score1 {
+  font-size: 60px;
+  color: blueviolet;
+}
+.currentBox {
+  background-color: rgb(193, 25, 223);
+  color: white;
+  padding: 15px;
+  width: 150px;
+  margin: auto;
+  border-radius: 10%;
+  font-size: 20px;
+}
+.currentBox p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dice {
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.btn1,
+.btn2,
+.btn3 {
+  border-radius: 40px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  opacity: 50%;
+  width: max-content;
+
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+.btnDice {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 46%;
+}
+.btnDice div {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 40px;
+}
+.hidden {
+  display: none;
+}
